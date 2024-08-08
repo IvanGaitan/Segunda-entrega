@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulario sobre mi</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nombre">Edward Ivan Gaitan Peñuela</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="perfil">
+            <img src="img/yo.jpg" alt="Mi Imagen">
+            <h2><strong>Edward Ivan Gaitan Peñuela</strong></h2>
+            <p><strong>Maquetador web - Entusiasta - autodidacta</strong></p>
+        </section>
+        <section id="portafolio" class="portafolio">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="item">
+                    <img src="img/lemon-pie.jpeg" alt="limon">
+                    <p><strong>Lemon-pie</strong></p>
+                </div>
+                <div class="item">
+                    <img src="img/CVBatman.png" alt="Batman">
+                    <p><strong>Batman</strong></p>
+                </div>
+                <div class="item">
+                    <img src="img/super.png" alt="Supers">
+                    <p><strong>Supers</strong></p>
+                </div>
+                <div class="item">
+                    <img src="img/petshop.jpeg" alt="Mascotas">
+                    <p><strong>Petshop</strong></p>
+                </div>
+                <div class="item">
+                    <img src="img/piza.jpeg" alt="Pizza">
+                    <p><strong>Pizzeria</strong></p>
+                </div>
+                <div class="item">
+                    <img src="img/gameshop.jpeg" alt="Gamer">
+                    <p><strong>Game Shop</strong></p>
+                </div>
+
+            </div>
+        </section>
+        <section id="sobre-mi" class="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <div class="contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio neque ullam quod quasi
+                    perspiciatis voluptatum at totam alias hic odit laudantium consequatur aspernatur natus, expedita
+                    temporibus? Cumque, dolorem optio!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio neque ullam quod quasi
+                    perspiciatis voluptatum at totam alias hic odit laudantium consequatur aspernatur natus, expedita
+                    temporibus? Cumque, dolorem optio!</p>
+            </div>
+            <button class="btn-descargar-cv">
+                <img src="img/descarga.png" alt="Descarga">
+                Descargar CV
+            </button>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contácteme</h2>
+            <form class="form">
+                <div class="form_container">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form_input" placeholder=" " required>
+                        <label for="name" class="form_label">Nombre Completo</label>
+                        <span class="form_line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form_input" placeholder=" " required>
+                        <label for="email" class="form_label">Email</label>
+                        <span class="form_line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="number" class="form_input" placeholder=" " required>
+                        <label for="number" class="form_label">Número de Teléfono</label>
+                        <span class="form_line"></span>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <textarea id="mensaje" class="form_input" name="mensaje" placeholder=" " required></textarea>
+                    <label for="mensaje" class="form_label">Mensaje</label>
+                    <span class="form_line"></span>
+                </div>
+                <div class="form-group ">
+                    <button type="submit" class="form_button">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>Mi Lugar</h3>
+                <p>Carrera 80</p>
+               <p> Ciudad: Bogota Colombia</p>
+            </div>
+            <div class="footer-center">
+                <h3>Sígamos Conectados</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/instagram.jpeg" alt="Instagram"></a>
+                    <a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/Github.png" alt="GitHub"></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Sobre Mí</h3>
+                <p>Soy una persona creativa y con ansias de aprender. tengo conocimientos en HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT, MYSQL, POSTGRES</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
